@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: font-family: "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif; */
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #4831d4;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  color: #ccf381;
+  font-size: 50px;
+}
+nav h1 .logo_span {
+  color: #fff;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: large;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+.detail {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+.detail h1 {
+  font-size: 70px;
+  color: #ccf381;
+  margin-bottom: 20px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.dot {
+  color: #fff;
+}
+.detail p {
+  color: #fff;
+  line-height: 20px;
+}
+.detail a {
+  background: #343a40;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.image {
+  position: absolute;
+  right: 170px;
+  top: 100px;
+}
+.image img {
+  border-radius: 50px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.824);
+}
+
+.note {
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+.note p {
+  display: inline-block;
+  color: #82c91e;
+  font-weight: 500;
+}
+
+.two {
+  margin-left: 50px;
+}
+
+.about_me {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+}
+
+.grid {
+  display: grid;
+  column-gap: 64px;
+  gap: 96px;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-center-v {
+  align-items: center;
+}
+
+.about_me div {
+  padding: 70px;
+  font-size: 25px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.8;
+}
+.developer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 32px;
+  color: #4831d4;
+}
+
+.my_project {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg, #4831d4, #090909);
+  padding: 0 10px;
+  position: relative;
+}
+
+.my_project2 {
+  position: absolute;
+  max-width: 700px;
+  width: 100%;
+  height: 50%;
+  background: #fff;
+  left: 370px;
+  top: 200px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rbga(0, 0, 0, 0.125);
+}
+
+.my_project2 .title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #4831d4;
+  text-transform: uppercase;
+  text-align: center;
+}
+.my_project2 .all .link_all {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.my_project2 .all .work_terms {
+  font-size: 17.5px;
+}
+
+.service {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+}
+
+.service div {
+  padding: 70px;
+  font-size: 25px;
+}
+
+.description2 {
+  font-size: 22px;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.heading2 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 32px;
+  color: #4831d4;
+}
+.btn1 {
+  width: 50%;
+  outline: none;
+  border: 1px solid #4831d4;
+  font-size: 15px;
+  color: #4831d4;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+footer {
+  margin-bottom: 48px;
+}
+
+footer .word {
+  font-size: 14px;
+}
+
+/* contact page */
+.former {
+  width: 100%;
+  height: 100vh;
+  background: #4831d4;
+}
+
+.center2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+  width: 100%;
+  height: 50%;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.center2 .title_contact {
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  color: #4831d4;
+  text-align: center;
+}
+
+.center2 .register {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -15px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 1.3;
+  color: #3d155f;
+}
+.center2 .move {
+  margin-left: 180px;
+}
+.center2 .put {
+  text-align: center;
+  width: 70%;
+  height: 40px;
+}
+
+.txt_field {
+  border-bottom: 2px solid #adadad;
+  margin-top: -20px;
+}
+
+.txt_field input {
+  width: 50%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.txt_field label {
+  top: 50%;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.txt_field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #4831d4;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  top: -5px;
+  color: #4831d4;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before {
+  width: 100%;
+}
