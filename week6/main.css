@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.carousal-container {
+  position: relative;
+}
+
+.image-container {
+  height: 400px;
+  margin-top: 80px;
+  display: none;
+}
+
+img {
+  padding-left: 10px;
+  padding-right: 10px;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  /* overflow: hidden; */
+}
+.image-container:hover ~ .next,
+.image-container:hover ~ .prev {
+  opacity: 1;
+}
+
+.next,
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 47%;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  user-select: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.prev {
+  left: 25px;
+}
+.next {
+  right: 25px;
+}
+
+.next:hover,
+.prev:hover {
+  opacity: 1;
+}
